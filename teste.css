@@ -1,0 +1,142 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2EFEF;
+  font-family: 'Alata', sans-serif;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  border-bottom: 2px solid black;
+}
+
+#LogoTomate {
+  width: 6%;
+}
+
+.Home {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Kirang Haerang', cursive;
+  color: #000;
+}
+
+.lupa {
+  width: 2rem;
+  margin-left: 2rem;
+}
+
+.pomodoros {
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 2rem;
+  color: #6e1217;
+}
+
+/* Linha e título central */
+.linha-central {
+  width: 100%;
+  height: 1.5px;
+  background-color: black;
+  margin: 1rem auto;
+  border: none;
+}
+
+.titulo-recomendacao {
+  font-size: 2rem;
+  font-family: 'Alata', sans-serif;
+  color: #F2EFEF;
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Caixa principal */
+.Pai {
+  background-color: #6e1217;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+/* Container de pizzas */
+.caixa-recomendacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+/* Cartões de pizza */
+.card-pizza {
+  background-color: #F2EFEF;
+  width: 20%;
+  min-width: 200px;
+  border-radius: 1.5rem;
+  border: 3px solid #F2EFEF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.card-pizza:hover {
+  transform: scale(1.05);
+  border-color: black;
+}
+
+.card-pizza img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.card-pizza h3 {
+  font-family: 'Alata', sans-serif;
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.card-pizza p {
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+  color: black;
+}
+
+.botao-confira {
+  background-color: #F2EFEF;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-confira:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Rodapé */
+.MARCA {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: black;
+}
